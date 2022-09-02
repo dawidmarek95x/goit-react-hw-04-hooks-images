@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Loader.module.scss';
 import { RotatingLines } from 'react-loader-spinner';
 
-export const Loader = () => {
+const Loader = () => {
   const {loader} = styles;
 
   return (

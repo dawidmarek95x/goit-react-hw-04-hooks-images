@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ImageGalleryItem.module.scss';
 
-export const ImageGalleryItem = ({itemData, openModal}) => {
+const ImageGalleryItem = ({itemData, openModal}) => {
   const {item,  item_image} = styles;
   const {webformatURL, tags, largeImageURL} = itemData;
 

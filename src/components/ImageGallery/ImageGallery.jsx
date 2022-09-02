@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ImageGallery.module.scss';
-import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
+import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
 import { nanoid } from 'nanoid';
 
-export const ImageGallery = ({items, openModal}) => {
+const ImageGallery = ({items, openModal}) => {
   const {gallery} = styles;
 
   return (
